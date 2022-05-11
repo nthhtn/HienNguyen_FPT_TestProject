@@ -138,6 +138,7 @@ namespace HienNguyen_FPT_TestProject
 
             if (!responseContent.ContainsKey("current"))
             {
+                ShowErrorDialog(CAPTION_DIALOG_ERROR, "Weather info not found!\n\nCannot give advice!");
                 return;
             }
 

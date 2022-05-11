@@ -7,11 +7,13 @@ This repository is a mini project of giving advice based on current weather info
 * .NET Framework 4.7.2
 * Nuget Package Manager configured with nuget.org source
 
-### Features 
+### Features
 
 Call this service to get the weather
 http://api.weatherstack.com/current?access_key=610acf4c1d203448cd6f671955c5e8aa&query=30076
+
 Prompt user for zipcode
+
 Answer for the user the following questions:
 * Should I go outside?
     * Yes if it’s not raining
